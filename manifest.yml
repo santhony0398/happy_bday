@@ -6,5 +6,5 @@ applications:
   instances: 1
   memory: 256M
   env:
-    API_KEY: placeholder
-    DEPLOYMENT_URL: placeholder
+    API_KEY: ezetgBupFz_uE28d1EI5AkQLoF70Ls4Eovhw3s3MbSrY
+    DEPLOYMENT_URL: https://us-south.ml.cloud.ibm.com/ml/v4/deployments/108c88f7-7bf1-4ed9-9a24-5e2e38c5fcab/predictions?version=2021-06-10
