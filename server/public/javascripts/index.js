@@ -53,9 +53,9 @@
             var risk = data[0]
             var prediction = data[1][0]
             var probability = data[1][1]
-            $('.risk').html('Heart Risk: '+risk);
-            $('.prediction').html('Prediction: '+Math.floor(prediction*100 ).toFixed(0)+'%');
-            $('.probability').html('Probability: '+Math.floor(probability*100 ).toFixed(0)+'%');
+            $('.risk').html('¿Hay Riesgos?: '+risk);
+            $('.prediction').html('Predicción: '+Math.floor(prediction*100 ).toFixed(0)+'%');
+            $('.probability').html('Probabilidad: '+Math.floor(probability*100 ).toFixed(0)+'%');
         }
 
         $('.classify-btn').prop('disabled', false);
